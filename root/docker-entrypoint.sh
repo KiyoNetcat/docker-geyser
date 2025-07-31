@@ -8,4 +8,4 @@ do
 done
 
 cd /app
-exec java -jar Geyser.jar $@
+exec java ${JVM_OPTS:} -jar Geyser.jar $@
